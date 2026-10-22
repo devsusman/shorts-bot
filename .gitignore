@@ -1,0 +1,8 @@
+.env
+.env.secrets
+client_secret.json
+token.json
+work/
+__pycache__/
+*.pyc
+.pytest_cache/
