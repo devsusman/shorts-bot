@@ -22,5 +22,19 @@
   "platforms": {},
   "overall": "failed",
   "error": "All script providers failed:\ngemini attempt 1: request failed (HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120))\ngemini attempt 2: request failed (HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120))\ngemini attempt 3: request failed (HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=120))\ngroq: GROQ_API_KEY not set\nollama: OLLAMA_"
+ },
+ {
+  "time": "2026-10-23T22:10:15+00:00",
+  "slot": "11pm",
+  "title": "Staring Down the Microwave #Shorts",
+  "platforms": {
+   "youtube": {
+    "status": "dry_run",
+    "detail": "dry run"
+   }
+  },
+  "overall": "ok",
+  "llm": "gemini",
+  "seconds": 36.1
  }
 ]
