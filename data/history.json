@@ -6,5 +6,13 @@
   "platforms": {},
   "overall": "failed",
   "error": "All script providers failed:\ngemini attempt 1: request failed (404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent)\ngemini attempt 2: request failed (404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent)\ngemini attempt 3: request failed (404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:gener"
+ },
+ {
+  "time": "2026-10-23T21:23:58+00:00",
+  "slot": "11pm",
+  "title": "",
+  "platforms": {},
+  "overall": "failed",
+  "error": "All script providers failed:\ngemini attempt 1: request failed (404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent)\ngemini attempt 2: request failed (404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent)\ngemini attempt 3: request failed (404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:gener"
  }
 ]
