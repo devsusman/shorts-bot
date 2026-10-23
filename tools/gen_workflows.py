@@ -123,6 +123,7 @@ jobs:
       SMTP_SERVER: ${{{{ secrets.SMTP_SERVER }}}}
       SLACK_WEBHOOK_URL: ${{{{ secrets.SLACK_WEBHOOK_URL }}}}
       GEMINI_API_KEY: ${{{{ secrets.GEMINI_API_KEY }}}}
+      GEMINI_MODEL: ${{{{ vars.GEMINI_MODEL }}}}
       GROQ_API_KEY: ${{{{ secrets.GROQ_API_KEY }}}}
       PIXABAY_API_KEY: ${{{{ secrets.PIXABAY_API_KEY }}}}
       YT_OAUTH_JSON: ${{{{ secrets.YT_OAUTH_JSON }}}}
