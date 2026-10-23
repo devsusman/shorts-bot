@@ -1,11 +1,12 @@
 # Shorts bot status
 
-Times shown in Asia/Karachi. Last fully successful run: **never**. Total runs logged: 2, successful: 0.
+Times shown in Asia/Karachi. Last fully successful run: **never**. Total runs logged: 3, successful: 0.
 
 ✅ done · ❌ failed · ⏭️ skipped (no credentials) · 🧪 dry run
 
 | Time | Slot | Title | YouTube | TikTok | Instagram | Sec | Error |
 |---|---|---|---|---|---|---|---|
+| 10-24 03:01 | 11pm | – | – | – | – |  | All script providers failed: gemini attempt 1: request failed (HTTPSConnectionPool(host='g |
 | 10-24 02:23 | 11pm | – | – | – | – |  | All script providers failed: gemini attempt 1: request failed (404 Client Error: Not Found |
 | 10-24 02:04 | 11pm | – | – | – | – |  | All script providers failed: gemini attempt 1: request failed (404 Client Error: Not Found |
 
