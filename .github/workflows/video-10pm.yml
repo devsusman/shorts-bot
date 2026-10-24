@@ -139,6 +139,15 @@ jobs:
         id: run
         run: python -m shorts.run --slot "$SLOT"
 
+      - name: Upload rendered video for review
+        if: steps.run.outcome == 'success'
+        uses: actions/upload-artifact@v4
+        with:
+          name: rendered-short-${{ github.run_id }}
+          path: ~/.shortsmash/projects/*/final.mp4
+          if-no-files-found: error
+          retention-days: 7
+
       - name: Commit status page
         id: commit
         if: always()
