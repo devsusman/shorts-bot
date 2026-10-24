@@ -50,5 +50,19 @@
   "overall": "ok",
   "llm": "gemini",
   "seconds": 43.3
+ },
+ {
+  "time": "2026-10-24T10:03:51+00:00",
+  "slot": "11pm",
+  "title": "The Ninety Percent Quit #Shorts",
+  "platforms": {
+   "youtube": {
+    "status": "dry_run",
+    "detail": "dry run"
+   }
+  },
+  "overall": "ok",
+  "llm": "gemini",
+  "seconds": 32.7
  }
 ]
