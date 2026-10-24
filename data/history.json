@@ -36,5 +36,19 @@
   "overall": "ok",
   "llm": "gemini",
   "seconds": 36.1
+ },
+ {
+  "time": "2026-10-24T09:35:55+00:00",
+  "slot": "11pm",
+  "title": "The Three Day Gym Phase #Shorts",
+  "platforms": {
+   "youtube": {
+    "status": "dry_run",
+    "detail": "dry run"
+   }
+  },
+  "overall": "ok",
+  "llm": "gemini",
+  "seconds": 43.3
  }
 ]
