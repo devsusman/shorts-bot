@@ -49,7 +49,7 @@ on:
       dry_run:
         description: "Generate and render only, do not publish"
         type: boolean
-        default: false
+        default: true
 
 permissions:
   contents: write   # commits data/history.json + STATUS.md
@@ -118,7 +118,7 @@ jobs:
     timeout-minutes: 90
     env:
       TARGET_ISO: ${{{{ needs.guard.outputs.target_iso }}}}
-      DRY_RUN: ${{{{ inputs.dry_run }}}}
+      DRY_RUN: ${{{{ github.event_name == 'schedule' || inputs.dry_run }}}}
       HC_URL: ${{{{ secrets.HC_URL_{slot_upper} }}}}
       SMTP_SERVER: ${{{{ secrets.SMTP_SERVER }}}}
       SLACK_WEBHOOK_URL: ${{{{ secrets.SLACK_WEBHOOK_URL }}}}
